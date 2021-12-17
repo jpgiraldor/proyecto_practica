@@ -67,8 +67,13 @@ Se desea ingestar información en tiempo real acerca de los viajes realizados en
 Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
 #### Paso a paso ####
  * Ir a pubsub y crear una sucripción al topic `projects/pubsub-public-data/topics/taxirides-realtime`
-  *<img width="380" alt="image" src="https://user-images.githubusercontent.com/35697253/146497073-e733bbeb-0a37-4adf-8fa0-e06a29a5a11d.png">
-  *![image](https://user-images.githubusercontent.com/35697253/146497217-d08edbec-5f71-491a-9345-121f3ae8a160.png)
+  * <img width="380" alt="image" src="https://user-images.githubusercontent.com/35697253/146497073-e733bbeb-0a37-4adf-8fa0-e06a29a5a11d.png">
+  * ![image](https://user-images.githubusercontent.com/35697253/146497217-d08edbec-5f71-491a-9345-121f3ae8a160.png)
+ * Crear la tabla en BigQuery con el esquema de datos
+  * <img width="262" alt="image" src="https://user-images.githubusercontent.com/35697253/146497776-d20977ce-279f-4c12-94c0-c84d15f07303.png">
+ * Crear script de Python para escribir datos en BigQuery desde PubSub usando Apache Beam.
+ 
+  
 
  
 
