@@ -36,6 +36,23 @@ Para la primera parte del ejercicio, se desea consumir dicho stream de datos usa
       * https://k21academy.com/google-cloud/create-google-cloud-free-tier-account/
     * Instalar Google Cloud SDK
       * https://cloud.google.com/sdk/docs/install
+    * Configurar Google Cloud SDK
+      *  `gcloud init` 
+      *  Seleccionar la opcion 1
+      *  Seleccionar la cuenta que esta registrada en GCP
+      *  Seleccionar el proyecto
+      *  No seleccionar region
+    * Seguir el siguiente tutorial para la activacion de la cuenta de GCP https://cloud.google.com/docs/authentication/getting-started#windows
+      * `TIP` Cuando se tenga que crear la variable de entorno, lo mejor es crearla de forma manual.
+       * ![image](https://user-images.githubusercontent.com/35697253/146488498-2ac18e38-4403-4252-a698-6d7393db423b.png)
+       * <img width="308" alt="image" src="https://user-images.githubusercontent.com/35697253/146488572-9a4bba6b-cabb-4524-aed6-3c7879f4cc8b.png">
+       * <img width="432" alt="image" src="https://user-images.githubusercontent.com/35697253/146488794-08dc8a1b-9b94-4290-80fc-1f6bb07b3f12.png">
+       * ![image](https://user-images.githubusercontent.com/35697253/146488950-55c36d27-402a-42bf-89f8-29382a37910f.png)
+      * `TIP` Cerrar sesión o reiniciar el computador
+
+
+
+
     * Como preferencia propia, recomiendo instalar PyCharm como IDE de Python.
     * Instalar los siguientes modulos de python con pip
       * `pip install google-cloud`
