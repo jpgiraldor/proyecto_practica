@@ -49,10 +49,6 @@ Para la primera parte del ejercicio, se desea consumir dicho stream de datos usa
        * <img width="432" alt="image" src="https://user-images.githubusercontent.com/35697253/146488794-08dc8a1b-9b94-4290-80fc-1f6bb07b3f12.png">
        * ![image](https://user-images.githubusercontent.com/35697253/146488950-55c36d27-402a-42bf-89f8-29382a37910f.png)
       * `TIP` Cerrar sesión o reiniciar el computador
-
-
-
-
     * Como preferencia propia, recomiendo instalar PyCharm como IDE de Python.
     * Instalar los siguientes modulos de python con pip
       * `pip install google-cloud`
@@ -61,5 +57,19 @@ Para la primera parte del ejercicio, se desea consumir dicho stream de datos usa
       * `pip install google-cloud-bigquery`
       * `pip install google-cloud-bigquery-storage`
       * `pip install google-apitools`
-      * `pip install apache-beam `
+      * `pip install apache-beam`
+      * `pip install 'apache-beam[gcp]'`
+
+Tras haber completado los pasos de preparación, se puede proceder con el ejercicio.
+#### Enunciado ####
+Se desea ingestar información en tiempo real acerca de los viajes realizados en algunos Taxis de la ciudad de Nueva York para que estos sean analizados posteriormente. Usted debe consumir los datos que estan publicados en Google PubSub y almacenarlos en una base de datos en BigQuery usando Apache Beam con Python. El Topid de pubsub donde esta el stream es : `projects/pubsub-public-data/topics/taxirides-realtime`
+
+Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
+#### Paso a paso ####
+ * Ir a pubsub y crear una sucripción al topic `projects/pubsub-public-data/topics/taxirides-realtime`
+  *<img width="380" alt="image" src="https://user-images.githubusercontent.com/35697253/146497073-e733bbeb-0a37-4adf-8fa0-e06a29a5a11d.png">
+  *![image](https://user-images.githubusercontent.com/35697253/146497217-d08edbec-5f71-491a-9345-121f3ae8a160.png)
+
+ 
+
      
