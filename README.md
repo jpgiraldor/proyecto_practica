@@ -61,7 +61,7 @@ Para la primera parte del ejercicio, se desea consumir dicho stream de datos usa
       * `pip install 'apache-beam[gcp]'`
 
 Tras haber completado los pasos de preparación, se puede proceder con el ejercicio.
-#### Enunciado ####
+#### Enunciado Parte 1 ####
 Se desea ingestar información en tiempo real acerca de los viajes realizados en algunos Taxis de la ciudad de Nueva York para que estos sean analizados posteriormente. Usted debe consumir los datos que estan publicados en Google PubSub y almacenarlos en una base de datos en BigQuery usando Apache Beam con Python. El Topid de pubsub donde esta el stream es : `projects/pubsub-public-data/topics/taxirides-realtime`
 
 Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
@@ -72,7 +72,11 @@ Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
  * Crear la tabla en BigQuery con el esquema de datos
   * <img width="262" alt="image" src="https://user-images.githubusercontent.com/35697253/146497776-d20977ce-279f-4c12-94c0-c84d15f07303.png">
  * Crear script de Python para escribir datos en BigQuery desde PubSub usando Apache Beam.
+  * https://github.com/jpgiraldor/proyecto_practica/blob/8e4de9d208062d55c9619fd10df94ccb2b4fcbee/beam_ps_bq.py
  
+ #### Enunciado Parte 2 ####
+ Para la segunda parte de este ejercicio, ya teniendo los datos en BigQuery, se va a usar DataBricks para hacer algunas transformaciones de datos con Spark.
+ *Para configurar databricks con GCP, puede seguir este tutorial: https://docs.databricks.com/data/data-sources/google/bigquery.html*
   
 
  
