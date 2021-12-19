@@ -1,7 +1,7 @@
 # Proyecto de Practica
 En este repositorio esta contenido toda la información relevante del proyecto de práctica. El objetivo del proyecto fue realizar un taller interactivo en el cual una persona pueda aplicar los conocimientos obtenidos tras realizar el learning path de Data Engineering de Perficient. 
 Se podrán aplicar conocimientos en temas tales como:
-Python
+* Python
 * Google Cloud Platform
   * Cloud Dataflow
   * BigQuery
