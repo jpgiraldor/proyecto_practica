@@ -87,9 +87,18 @@ Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
 
  Se desea averiguar la siguiente informacion:
  * Cuantos drop-offs tiene cada `dropoff_location` y organizarlos de más a menos.
- * Máxima, mínima y tarifa promedio de los viajes de menos de 10 min.
- * Los 20 `dropoff_location` con mayor tip.
- * Cuales son los `pickup_location` y `dropoff_location` de los 20 viajes más costosos.
+ * Máxima, mínima y tarifa promedio de los viajes de 10 minutos o más.
+ * Los 10 `dropoff_location` con mayor tip.
+ * Cuales son los `pickup_location` y `dropoff_location` de los 15 viajes más costosos.
+
+ * Respuestas *
+ * ![image](https://user-images.githubusercontent.com/35697253/146689021-8f4cd8ef-9277-41dd-a80d-518e6c75acfc.png)
+ * ![image](https://user-images.githubusercontent.com/35697253/146688638-6c2c25cc-715c-4469-aaa0-ffc0eb14ef3f.png)
+ * ![image](https://user-images.githubusercontent.com/35697253/146688652-2f5bdd08-aa54-4e64-a798-3691f25e535a.png)
+ * ![image](https://user-images.githubusercontent.com/35697253/146689333-4b63d7c8-7ef7-4bd9-98e4-6828996612fe.png)
+
+
+
  
 
  
