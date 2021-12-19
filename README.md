@@ -75,9 +75,22 @@ Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
   * https://github.com/jpgiraldor/proyecto_practica/blob/8e4de9d208062d55c9619fd10df94ccb2b4fcbee/beam_ps_bq.py
  
  #### Enunciado Parte 2 ####
- Para la segunda parte de este ejercicio, ya teniendo los datos en BigQuery, se va a usar DataBricks para hacer algunas transformaciones de datos con Spark.
- *Para configurar databricks con GCP, puede seguir este tutorial: https://docs.databricks.com/data/data-sources/google/bigquery.html*
-  
+ Para la segunda parte de este ejercicio, vamos a utilizar un dataset público de GCP acerca de los taxis de Chicago.
+ 
+ `TIP` No hacer un query `Select *` ya que sale demasiado caro, si desea ver el diccionario de datos puede entrar a este link:
+ https://www.kaggle.com/paultimothymooney/how-to-query-the-chicago-taxi-dataset/data
+ 
+ Entre los pasos preliminares es agregar la tabla a BigQuery. Para haccer esto, debe de ingresar a este link en el mismo navegador donde tiene GCP abierto y buscar el dataset.
+ * https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset&_ga=2.29011196.1907405029.1639873486-138552656.1629748128
+ * ![image](https://user-images.githubusercontent.com/35697253/146681315-5095de3c-ffd2-44c6-991b-9370e503f1be.png)
+ * ![image](https://user-images.githubusercontent.com/35697253/146681337-895e00f6-0bac-4ab3-a413-5fb3b1450b28.png)
+
+ Se desea averiguar la siguiente informacion:
+ * Cuantos drop-offs tiene cada `dropoff_location` y organizarlos de más a menos.
+ * Máxima, mínima y tarifa promedio de los viajes de menos de 10 min.
+ * Los 20 `dropoff_location` con mayor tip.
+ * Cuales son los `pickup_location` y `dropoff_location` de los 20 viajes más costosos.
+ 
 
  
 
