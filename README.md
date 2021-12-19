@@ -50,6 +50,7 @@ Para la primera parte del ejercicio, se desea consumir dicho stream de datos usa
        * ![image](https://user-images.githubusercontent.com/35697253/146488950-55c36d27-402a-42bf-89f8-29382a37910f.png)
       * `TIP` Cerrar sesión o reiniciar el computador
     * Como preferencia propia, recomiendo instalar PyCharm como IDE de Python.
+    * Todos las instalaciones de pip se encuentran en requirements.txt, en su defecto hacer el siguiente paso.
     * Instalar los siguientes modulos de python con pip
       * `pip install google-cloud`
       * `pip install google-cloud-storage`
