@@ -98,7 +98,11 @@ Lo ideal es que intente hacer esto sin usar las respuestas a continuación.
  * ![image](https://user-images.githubusercontent.com/35697253/146689333-4b63d7c8-7ef7-4bd9-98e4-6828996612fe.png)
 
 
-
+### Bibliografía ###
+* https://www.kaggle.com/paultimothymooney/how-to-query-the-chicago-taxi-dataset/data
+* https://console.cloud.google.com/marketplace/product/city-of-chicago-public-data/chicago-taxi-trips
+* https://github.com/apache/beam
+* https://github.com/googlecodelabs/cloud-dataflow-nyc-taxi-tycoon
  
 
  
